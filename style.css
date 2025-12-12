@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a3c7e0;
+}
+.container {
+    background-color: white;
+    height: 60%;
+    width: 90%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left:50px;;
+    margin: 0 auto;
+    padding: 20px 30px;
+    display: flex;
+    gap: 15px;                
+    border-radius: 4px;
+}
+.input_field1, .input_field2{
+  display: inline-block;
+  color: black;
+  background-color: white;
+  border-radius:5px;
+  padding: 20px 30px;
+  margin: 10px 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.gradient-button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+.gradient-button:hover {
+  background-position: right center;
+  text-align: center;
+}
+.result{
+text-decoration: none;
+  display: inline-block;
+  color: black;
+  background-color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+#task2 {
+    width: 400px;
+    height: 200px;
+    background: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#circles {
+    display: flex;
+    gap: 10px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+}
