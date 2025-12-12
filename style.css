@@ -81,3 +81,27 @@ text-decoration: none;
     background: red;
     border-radius: 50%;
 }
+.border-button {
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    color: #2a5885;
+    border: 2px solid #2a5885;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Ефект наведення */
+.border-button:hover {
+    background: #2a5885;
+    color: white;
+    box-shadow: 0 0 10px rgba(42, 88, 133, 0.5);
+    transform: translateY(-2px);
+}
+
+/* Ефект натискання */
+.border-button:active {
+    transform: scale(0.96);
+}
